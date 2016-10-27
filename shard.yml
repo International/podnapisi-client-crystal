@@ -1,0 +1,15 @@
+name: podnapisi-client
+version: 0.1.0
+
+dependencies:
+  optarg:
+    github: mosop/optarg
+
+  cossack:
+    github: greyblake/crystal-cossack
+    version: ~> 0.1
+
+authors:
+  - George Opritescu <ssscripting@gmail.com>
+
+license: MIT
