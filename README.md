@@ -19,9 +19,9 @@ The cli tool accepts the following parameters:
 * `-n` represents the name of the show. Should be quoted if it contains more than one word.
 * `-s` represents the season, ex: 1
 * `-e` represents the episode number, ex: 1
-* `-l` two letter code for a language, ex: en (pl/ru/etc)
+* `-l` two letter code for a language, ex: en (pl/ru/etc); leave blank to search all languages
 * `-d` boolean flag, whether to download all the subtitles or not. If `-d` is not passed,
-then the client will display the subtitles found, and for which movie releases they match. If you do pass `-d`, then for each subtitle, it will download them to the current folder, with the following name format: `name`S`season`E`episode`_sub_`subtitle number starting from 0`.zip
+then the client will display the subtitles found, and for which movie releases they match. If you do pass `-d`, then for each subtitle, it will download them to the current folder, with the following name format: `name`S`season`E`episode`_`language`_sub_`subtitle number starting from 0`.zip
 
 ## Contributing
 
