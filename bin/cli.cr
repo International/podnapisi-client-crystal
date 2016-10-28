@@ -28,6 +28,7 @@ unless results.empty?
     end
 
     if opts.download?
+      show_name = show_name.gsub(/\s+/,"_")
       file_name = "#{show_name}S#{season_number}E#{episode_number}_#{res.language}_sub_#{idx}.zip"
       puts "writing #{file_name}"
       Process.run("sh", ["-c", "wget #{url} -O #{file_name}"])
