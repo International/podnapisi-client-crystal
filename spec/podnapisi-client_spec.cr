@@ -1,8 +1,6 @@
 require "./spec_helper"
 require "optarg"
 require "../bin/args_parser"
-# require "mocks/spec"
-# require "spec2-mocks"
 
 describe "podnapisi client" do
   it "should correctly parse subtitles" do
