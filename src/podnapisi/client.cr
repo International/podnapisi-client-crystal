@@ -1,7 +1,14 @@
+require "cossack"
+
 module Podnapisi
   class Client
     getter :show_name, :season, :episode, :language
+    property :http_client
+
     def initialize(@show_name : String, @season : Int32, @episode : Int32, @language : String?)
+      @http_client = Cossack::Client.new do |client|
+        client.use Cossack::RedirectionMiddleware, limit: 10
+      end
     end
 
     private def build_url
@@ -15,8 +22,8 @@ module Podnapisi
     end
 
     def results
-      response = HTTP::Client.get(build_url)
-      if response.status_code == 200
+      response = http_client.get(build_url)
+      if response.status == 200
         Parser.new(response.body).subtitles
       else
         [] of Subtitle

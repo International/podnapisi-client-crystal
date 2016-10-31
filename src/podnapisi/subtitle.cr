@@ -7,5 +7,9 @@ module Podnapisi
     def url
       File.join(@url, "download")
     end
+
+    def ==(other)
+      [url, releases, season, episode, language] == [other.url, other.releases, other.season, other.episode, other.language]
+    end
   end
 end

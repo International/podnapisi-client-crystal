@@ -4,7 +4,23 @@ shards:
     github: greyblake/crystal-cossack
     version: 0.1.4
 
+  mocks:
+    github: waterlink/mocks.cr
+    version: 0.9.3
+
   optarg:
     github: mosop/optarg
     version: 0.3.1
+
+  singleton:
+    github: waterlink/singleton.cr
+    version: 0.1.1
+
+  spec2:
+    github: waterlink/spec2.cr
+    version: 0.9.0
+
+  spec2-mocks:
+    github: waterlink/spec2-mocks.cr
+    version: 0.4.0
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE results [
+  <!ELEMENT results (#PCDATA|pagination|subtitle)*>
+    <!ELEMENT pagination (current, count, results)>
+      <!ELEMENT current (#PCDATA)>
+      <!ELEMENT count (#PCDATA)>
+    <!ELEMENT subtitle (id, title, year, movieId, url, uploaderId, uploaderName, release, releases, languageId, languageName, time, tvSeason, tvEpisode, tvSpecial, cds, format, fps, rating, flags, downloads)>
+      <!ELEMENT id (#PCDATA)>
+      <!ELEMENT pid (#PCDATA)>
+      <!ELEMENT title (#PCDATA)>
+      <!ELEMENT year (#PCDATA)>
+      <!ELEMENT movieId (#PCDATA)>
+      <!ELEMENT url (#PCDATA)>
+      <!ELEMENT uploaderId (#PCDATA)>
+      <!ELEMENT uploaderName (#PCDATA)>
+      <!ELEMENT releases (release)>
+        <!ELEMENT release (#PCDATA)>
+      <!ELEMENT languageId (#PCDATA)>
+      <!ELEMENT languageName (#PCDATA)>
+      <!ELEMENT language (#PCDATA)>
+      <!ELEMENT time (#PCDATA)>
+      <!ELEMENT tvSeason (#PCDATA)>
+      <!ELEMENT tvEpisode (#PCDATA)>
+      <!ELEMENT tvSpecial (#PCDATA)>
+      <!ELEMENT cds (#PCDATA)>
+      <!ELEMENT format (#PCDATA)>
+      <!ELEMENT fps (#PCDATA)>
+      <!ELEMENT rating (#PCDATA)>
+      <!ELEMENT flags (#PCDATA)>
+      <!ELEMENT new_flags (flag)>
+        <!ELEMENT flag (#PCDATA)>
+      <!ELEMENT downloads (#PCDATA)>
+      <!ELEMENT exactHashes (#PCDATA)>]> <results><pagination><current>1</current><count>1</count><results>5</results></pagination><subtitle><id>4177960</id><pid>KMA_</pid><title>Arrow</title><year>2012</year><movieId>e84G</movieId><url>http://www.podnapisi.net/subtitles/en-arrow-2012-S01E01/KMA_</url><uploaderId>None</uploaderId><uploaderName /><release>Arrow.S01E01.BDRip.X264-DEMAND Arrow.S01.BDRip.X264-DEMAND</release><releases><release>Arrow.S01E01.BDRip.X264-DEMAND</release><release>Arrow.S01.BDRip.X264-DEMAND</release></releases><languageId>2</languageId><languageName>English</languageName><language>en</language><time>1457916203</time><tvSeason>1</tvSeason><tvEpisode>1</tvEpisode><tvSpecial>0</tvSpecial><cds /><format>N/A</format><fps>N/A</fps><rating>0.0</rating><flags /><new_flags /><downloads>4048</downloads><exactHashes /></subtitle><subtitle><id>3973452</id><pid>TKE8</pid><title>Arrow</title><year>2012</year><movieId>e84G</movieId><url>http://www.podnapisi.net/subtitles/en-arrow-2012-S01E01/TKE8</url><uploaderId>None</uploaderId><uploaderName /><release>The Vampire Diaries S01E01 720p BluRay DD5.1 x264-CtrlHD</release><releases><release>The Vampire Diaries S01E01 720p BluRay DD5.1 x264-CtrlHD</release></releases><languageId>2</languageId><languageName>English</languageName><language>en</language><time>1431003996</time><tvSeason>1</tvSeason><tvEpisode>1</tvEpisode><tvSpecial>0</tvSpecial><cds /><format>N/A</format><fps>N/A</fps><rating>0.0</rating><flags>h</flags><new_flags><flag>high_definition</flag></new_flags><downloads>12718</downloads><exactHashes /></subtitle><subtitle><id>2678449</id><pid>sd4o</pid><title>Arrow</title><year>2012</year><movieId>e84G</movieId><url>http://www.podnapisi.net/subtitles/en-arrow-2012-S01E01/sd4o</url><uploaderId>1</uploaderId><uploaderName>Anonymous</uploaderName><release>Arrow.S01E01.BDRip.X264-DEMAND Arrow.S01E01.720p.BluRay.x264-DEMAND Arrow.S01E01.1080p.BluRay.x264-ROVERS</release><releases><release>Arrow.S01E01.BDRip.X264-DEMAND</release><release>Arrow.S01E01.720p.BluRay.x264-DEMAND</release><release>Arrow.S01E01.1080p.BluRay.x264-ROVERS</release></releases><languageId>2</languageId><languageName>English</languageName><language>en</language><time>1382249786</time><tvSeason>1</tvSeason><tvEpisode>1</tvEpisode><tvSpecial>0</tvSpecial><cds /><format>N/A</format><fps>N/A</fps><rating>1.0</rating><flags>h</flags><new_flags><flag>high_definition</flag></new_flags><downloads>17282</downloads><exactHashes>sublight:fbda6ee67e3887cbd8034f60ce1cf418</exactHashes></subtitle><subtitle><id>1988193</id><pid>YVYe</pid><title>Arrow</title><year>2012</year><movieId>e84G</movieId><url>http://www.podnapisi.net/subtitles/en-arrow-2012-S01E01/YVYe</url><uploaderId>39915</uploaderId><uploaderName>djrecor</uploaderName><release>Arrow.S01E01.HDTV.x264-LOL Arrow.S01E01.720p.HDTV.X264-DIMENSION</release><releases><release>Arrow.S01E01.HDTV.x264-LOL</release><release>Arrow.S01E01.720p.HDTV.X264-DIMENSION</release></releases><languageId>2</languageId><languageName>English</languageName><language>en</language><time>1349937181</time><tvSeason>1</tvSeason><tvEpisode>1</tvEpisode><tvSpecial>0</tvSpecial><cds /><format>N/A</format><fps>N/A</fps><rating>0.0</rating><flags>nh</flags><new_flags><flag>hearing_impaired</flag><flag>high_definition</flag></new_flags><downloads>32262</downloads><exactHashes>sublight:04f65e35980962bc5991491754c7c431 sublight:cec0d7eb65494fbc0529c27d2ee62868</exactHashes></subtitle><subtitle><id>1988192</id><pid>YFYe</pid><title>Arrow</title><year>2012</year><movieId>e84G</movieId><url>http://www.podnapisi.net/subtitles/en-arrow-2012-S01E01/YFYe</url><uploaderId>39915</uploaderId><uploaderName>djrecor</uploaderName><release>Arrow.S01E01.HDTV.x264-LOL Arrow.S01E01.720p.HDTV.X264-DIMENSION Arrow.S01E01.720p.WEB-DL.DD5.1.H.264-TB</release><releases><release>Arrow.S01E01.HDTV.x264-LOL</release><release>Arrow.S01E01.720p.HDTV.X264-DIMENSION</release><release>Arrow.S01E01.720p.WEB-DL.DD5.1.H.264-TB</release></releases><languageId>2</languageId><languageName>English</languageName><language>en</language><time>1349937171</time><tvSeason>1</tvSeason><tvEpisode>1</tvEpisode><tvSpecial>0</tvSpecial><cds /><format>N/A</format><fps>N/A</fps><rating>1.0</rating><flags>h</flags><new_flags><flag>high_definition</flag></new_flags><downloads>27999</downloads><exactHashes>sublight:af9d044b958fea029943307d7f880e74</exactHashes></subtitle></results>

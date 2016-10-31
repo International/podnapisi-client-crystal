@@ -8,13 +8,6 @@ module Podnapisi
       parse
     end
 
-    private def extract(start_node, path)
-      node = start_node.xpath_node(path)
-      if node
-        node.text.as(String)
-      end
-    end
-
     private def parse
       subtitle_nodes        = dom.xpath_nodes("//subtitle")
       @subtitles            = subtitle_nodes.map do |sub|
