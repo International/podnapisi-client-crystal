@@ -18,6 +18,9 @@ client  = Podnapisi::Client.new(show_name, season_number, episode_number, opts.l
 results = client.results
 
 unless results.empty?
+  if opts.maximum?
+    results = results.first(opts.maximum.to_i)
+  end
   results.each_with_index do |res,idx|
     url = res.url
     puts url

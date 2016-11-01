@@ -4,6 +4,7 @@ module Podnapisi
     string %w(--season -s)
     string %w(--episode -e)
     string %w(--language -l), required: false
+    string %w(--maximum -m), required: false
     bool %w(--download -d)
   end
 end
