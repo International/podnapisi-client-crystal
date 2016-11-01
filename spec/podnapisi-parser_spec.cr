@@ -1,6 +1,5 @@
 require "./spec_helper"
 require "optarg"
-require "../bin/args_parser"
 
 describe "podnapisi parser" do
   it "should correctly parse subtitles" do

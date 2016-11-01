@@ -5,11 +5,13 @@ dependencies:
   optarg:
     github: mosop/optarg
 
-  cossack:
-    github: greyblake/crystal-cossack
-    version: ~> 0.1
   mocks:
     github: waterlink/mocks.cr
+  zlib:
+    github: datanoise/zlib.cr
+  webmock:
+    github: manastech/webmock.cr
+    branch: master
 
 authors:
   - George Opritescu <ssscripting@gmail.com>

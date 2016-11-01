@@ -8,7 +8,7 @@ module Podnapisi
       parse
     end
 
-    private def parse
+    private def parse_xml
       subtitle_nodes        = dom.xpath_nodes("//subtitle")
       @subtitles            = subtitle_nodes.map do |sub|
         url                 = sub.xpath_node("./url").as(XML::Node).text.as(String)
@@ -22,6 +22,10 @@ module Podnapisi
 
         Subtitle.new(url, releases, language, season, episode_number)
       end
+    end
+
+    private def parse
+      parse_xml
     end
   end
 end

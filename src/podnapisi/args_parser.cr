@@ -1,3 +1,4 @@
+require "optarg"
 module Podnapisi
   class ArgsParser < Optarg::Model
     string %w(--name -n)

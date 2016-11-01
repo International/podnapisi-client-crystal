@@ -1,9 +1,5 @@
 version: 1.0
 shards:
-  cossack:
-    github: greyblake/crystal-cossack
-    version: 0.1.4
-
   mocks:
     github: waterlink/mocks.cr
     version: 0.9.3
@@ -15,4 +11,12 @@ shards:
   singleton:
     github: waterlink/singleton.cr
     version: 0.1.1
+
+  webmock:
+    github: manastech/webmock.cr
+    commit: 3d17dfc1976826bd37d06fff9869e260483e4839
+
+  zlib:
+    github: datanoise/zlib.cr
+    commit: ad7b42ee380bdcf10a949bcee4cc5ea92ecc9125
 
